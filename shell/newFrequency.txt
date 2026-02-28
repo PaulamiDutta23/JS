@@ -1,0 +1,7 @@
+shyam 26 78
+sodu 26 79
+jadu 78 65
+madhu 80 56
+sita 34 90 
+ram 12 90
+Sita 32 90 

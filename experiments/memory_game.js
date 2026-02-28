@@ -13,6 +13,7 @@ const ANIMAL_WORDS = ["dog", "cat", "cow", "pig", "rat", "ant", "bat", "fox", "b
 const COUNTRY_WORDS = ["india", "china", "france", "brazil", "cannada", "russia", "mexico", "egypt",
   "turkey", "germany", "nigeria", "norway", "sweden", "denmark", "poland", "finland", "belgium",
   "portugal", "ireland", "japan"];
+  
 const RED = "\x1B[31m";
 const GREEN = "\x1B[32m";
 const YELLOW = "\x1B[33m";

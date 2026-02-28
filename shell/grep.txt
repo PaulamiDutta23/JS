@@ -1,0 +1,32 @@
+//Finding valid email names
+grep "^[a-z0-9][a-z0-9.]\+@[a-z]\+\.[a-z]\+$"
+
+//Finding names starts with U and followed by any vowel in lowercase
+grep "^U[aeiou]"
+
+//Finding names starts with capital alphabet and ends with 'p'
+grep "^[A-Z][a-z]*p$" names.txt
+
+//Finding strings of length 5, starts with capital alphabet and ends with 'p'
+grep "^[A-Z]...p$" names.txt
+
+//Finding name starts with capital alphabet and doesn't end with 'a' or 'i'
+grep "^[A-Z][a-z]*[b-hj-z]$" names.txt
+
+//Finding name starts with capital alphabet and ends with 'a'
+grep "^[A-Z][a-z]*a$" names.txt
+
+//Finding name starts with capital alphabet and ends with 'i'
+grep "^[A-Z][a-z]*i$" names.txt
+
+//Finding binary numbers
+grep "^[01]\+$"
+
+//Finding binary numbers
+grep '^[0-9]*[02468]$'
+
+//Finding strings with length <5
+grep '^.\?.\?.\?.\?$'
+
+//Finding strings don't end with 'u' or 'm'
+grep -v '[um]$'
